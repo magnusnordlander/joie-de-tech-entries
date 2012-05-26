@@ -3,6 +3,7 @@ layout: post
 title: "Mer om PVR:en"
 category: Tech
 tags: [tv, comhem]
+permalink: Tech/2012/02/08/mer-om-pvren
 ---
 {% include JB/setup %}
 

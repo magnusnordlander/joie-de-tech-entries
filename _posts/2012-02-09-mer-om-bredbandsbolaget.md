@@ -3,6 +3,7 @@ layout: post
 title: "Mer om Bredbandsbolaget"
 category: Internet
 tags: [internet, swedish]
+permalink: Internet/2012/02/08/mer-om-bredbandsbolaget
 ---
 {% include JB/setup %}
 
