@@ -1,6 +1,7 @@
 ---
 permalink: life/2012-05-29/infor-symfony-live
 title: Inför Symfony Live
+categories: [ Symfony, Life ]
 ---
 
 Nu är det en dryg vecka kvar tills jag och två kollegor flyger ner till Paris för Symfony Live.
