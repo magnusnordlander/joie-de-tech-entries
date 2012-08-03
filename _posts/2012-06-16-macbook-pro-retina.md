@@ -3,7 +3,7 @@ category: Apple
 title: MacBook Pro med Retina Display
 ---
 
-![Bild på MacBook Pro med Retina Display](http://d.pr/i/mgAv+)
+@[Bild på MacBook Pro med Retina Display](macbook-pro/gallery3_2256_2x.jpg@610x610)
 
 Som traditionen bjuder följer jag naturligtvis Apples events när de hålls. Även om Apple sällan livestreamar eventsen så brukar det finnas bra livebloggande, och ibland brukar det även komma ut en ljud- eller videostream som man kan lyssna/kolla på under eventets gång.
 

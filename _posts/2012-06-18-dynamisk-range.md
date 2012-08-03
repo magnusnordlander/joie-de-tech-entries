@@ -12,7 +12,7 @@ Min tanke var att visa er en Masvis-rapport för låten och sedan gå igenom lit
 
 ### Audacity
 
-[![Audacity-bild över låten](http://d.pr/i/YBVx+)](http://d.pr/i/bVd3)
+[@[Audacity-bild över låten](dynamic-range/audacity.png@610x610 {"file_type": "png"})](http://d.pr/i/bVd3)
 
 Ni kan klicka på bilden för att se den i full storlek. Ser ni de där röda strecken? De röda strecken är [clipping](http://en.wikipedia.org/wiki/Clipping_(audio)). När musikinformation har gått förlorad för att man har "slått i taket" på en inspelning. Musik är som ni säkert vet vågor i luften, och när man kodar musik digitalt så har man en helt godtyckligt satt nivå av vad som är högsta tillåtna höjden på en våg. Clipping är när man går över den höjden. Det resulterar i distorsion, och inte i distorsion på något bra sätt, som ni kanske associerar med "distade elgitarrer" eller något sånt, utan distorsion som i att man inte hör ljudet som musikerna försökt förmedla.
 
@@ -20,7 +20,7 @@ Som om inte det här var oroväckande nog gick jag dock vidare till Masvis.
 
 ### Masvis
 
-![Masvis-bild över låten](http://d.pr/i/kTYL+)
+@[Masvis-bild över låten](dynamic-range/world-on-fire.gif@610x1200 {"file_type": "gif"})
 
 Här är dock den verkligen skrämmande läsningen. I både höger och vänsterkanalerna har vi runt 10 dB crest, något som tyder på låg dynamisk range, och om vi tittar på histogrammet är det bara en kulle! I en låt med hög dynamisk range så ser histogrammet snarare ut som en pyramid. Det där är mer hobbithål än pyramid.
 
@@ -30,7 +30,7 @@ Masvis-bilden bekräftar det som jag misstänkte från början. Det här är en 
 
 Som alltid när det gäller ljud så är det ju mycket svårare att förklara i text vad som är skillnaden på en låt som har fått dynamic range compression, och en som inte har det. Lyckligtvis så har andra gjort jobbet åt mig, något ni kan beskåda (och framförallt höra) i följande Youtube-video:
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/3Gmex_4hreQ?rel=0" frameborder="0" allowfullscreen></iframe>
+<!--<iframe width="480" height="360" src="http://www.youtube.com/embed/3Gmex_4hreQ?rel=0" frameborder="0" allowfullscreen></iframe>-->
 
 Hör ni skillnaden? Jag skulle tro att om ni lyssnar med något annat än typ en brödrost så gör ni det. Jag gör det i alla fall på de inbyggda laptophögtalarna jag har här.
 
