@@ -19,4 +19,4 @@ It's just Symfony, Twig, Monolog, Doctrine Common and the Symfony Distribution B
 
 To use it, just get a zipball from Github, extract it, and use composer to install the vendors.
 
-If you don't know how to use it, don't, just use the Standard Edition instead.
+If you don't know how to make do with it, don't, just use the Standard Edition instead.
