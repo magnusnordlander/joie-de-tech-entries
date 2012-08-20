@@ -17,6 +17,12 @@ I've created [Symfony2 Micro Edition](https://github.com/magnusnordlander/symfon
 
 It's just Symfony, Twig, Monolog, Doctrine Common and the Symfony Distribution Bundle (for generating the bootstrap).
 
-To use it, just get a zipball from Github, extract it, and use composer to install the vendors.
+<s>To use it, just get a zipball from Github, extract it, and use composer to install the vendors.</s>
 
-If you don't know how to make do with it, don't, just use the Standard Edition instead.
+To use it, just install it using Composer's create-project command like this:
+
+```
+composer.phar create-project magnusnordlander/symfony-micro
+```
+
+If you don't know how to make do with what you get, don't, just use the Standard Edition instead.
