@@ -5,7 +5,7 @@ title: Announcing Symfony2 Micro Edition
 
 *I'm simply gonna keep writing in English whenever I feel like it.*
 
-We all love Symfony2. It's by far the best PHP framework a by the time of writing. It's fast, it allows you to write great code, and if you're a beginner it's easy to get started with the Symfony2 Standard Edition.
+We all love Symfony2. It's by far the best PHP framework by the time of writing. It's fast, it allows you to write great code, and if you're a beginner it's easy to get started with the Symfony2 Standard Edition.
 
 As much as we all love that it's easy for newcomers to get started, if you're an experienced Symfony2 user starting a new project, you don't need all the demo stuff. You also don't necessarily need all the vendors shipped with the standard edition.
 
