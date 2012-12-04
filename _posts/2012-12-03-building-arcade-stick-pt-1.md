@@ -49,9 +49,9 @@ The Mayflash Fighting Stick comes in different revisions, with slightly differen
 
 This revision uses a common ground for the buttons, but not for the joystick. Earlier revisions have used a common ground for the joystick too.
 
-I **strongly** recommend that you first buy your fighting stick and take a look at the circuit board before you order any other parts. If e.g. you have the 2007 revision of the circuit board, I would instead recommend you use either a Semitsu LS-32-01[^1] or a Sanwa JLF-TP-8YT joystick, which is made for a common ground circuit.
+I **strongly** recommend that you first buy your fighting stick and take a look at the circuit board before you order any other parts. If e.g. you have the 2007 revision of the circuit board, I would instead recommend you use either a Seimitsu LS-32-01[^1] or a Sanwa JLF-TP-8YT joystick, which is made for a common ground circuit.
 
-[^1]: The difference between the Semitsu LS-32 and the LS-32-01 is that the LS-32-01 includes a circuit board with a standard 5 pin connector (4 signal leads and 1 common ground).
+[^1]: The difference between the Seimitsu LS-32 and the LS-32-01 is that the LS-32-01 includes a circuit board with a standard 5 pin connector (4 signal leads and 1 common ground).
 
 ### Opening the Mayflash fighting stick
 
