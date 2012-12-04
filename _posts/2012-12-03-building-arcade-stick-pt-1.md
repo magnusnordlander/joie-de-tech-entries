@@ -9,8 +9,16 @@ First of all, at the time of writing, this project isn't  yet completed, so bewa
 
 ### Parts
 
+[@[The Mayflash fighting stick](building-arcade-stick-pt-1/IMG_0703.JPG@150x150)](@(building-arcade-stick-pt-1/IMG_0703.JPG@1600x1600))
+[@[Seimitsu LS-32 and Sanwa OBSF-30](building-arcade-stick-pt-1/IMG_0731.JPG@150x150)](@(building-arcade-stick-pt-1/IMG_0731.JPG@1600x1600))
+[@[Sanwa OBSF-30](building-arcade-stick-pt-1/IMG_0734.JPG@150x150)](@(building-arcade-stick-pt-1/IMG_0734.JPG@1600x1600))
+[@[Seimitsu LS-32](building-arcade-stick-pt-1/IMG_0736.JPG@150x150)](@(building-arcade-stick-pt-1/IMG_0736.JPG@1600x1600))
+[@[Seimitsu LS-32](building-arcade-stick-pt-1/IMG_0742.JPG@150x150)](@(building-arcade-stick-pt-1/IMG_0742.JPG@1600x1600))
+[@[Sanwa OBSF-30](building-arcade-stick-pt-1/IMG_0756.JPG@150x150)](@(building-arcade-stick-pt-1/IMG_0756.JPG@1600x1600))
+[@[Sanwa OBSF-30](building-arcade-stick-pt-1/IMG_0769.JPG@150x150)](@(building-arcade-stick-pt-1/IMG_0769.JPG@1600x1600))
+
 * [Mayflash Fighting Stick](http://www.mayflash.com/?Products/PCUSB/PC042.html) (2009 circuit board rev.)
-* Semitsu LS-32
+* Seimitsu LS-32
 * 8x Sanwa OBSF-30
 * Quick disconnects (16x 2.4 mm, 8x 4.8 mm)
 * Wiring
@@ -32,10 +40,12 @@ First of all, at the time of writing, this project isn't  yet completed, so bewa
 * Basic electronics
 * Medium soldering skills (button soldering points are surface mounted, but rather large)
 * Basic power tools usage (and a steady hand)
-	
+
 ### About the circuit board
 
 The Mayflash Fighting Stick comes in different revisions, with slightly different circuitry. This guide is for the 2009 revision, indicated by the lettering 2009-04-20 on the circuit board.
+
+[@[Circuit board markings](building-arcade-stick-pt-1/IMG_0700.JPG@400x400)](@(building-arcade-stick-pt-1/IMG_0700.JPG@1600x1600))
 
 This revision uses a common ground for the buttons, but not for the joystick. Earlier revisions have used a common ground for the joystick too.
 
@@ -47,15 +57,25 @@ I **strongly** recommend that you first buy your fighting stick and take a look 
 
 This is easy. Flip the fighting stick upside down. Two screws are visible, remove them. There are four more screws under the rubber feet. Gently partially lift each rubber foot, remove the screw and re-affix. Avoid touching the adhesive in order for it to get a good grip when you re-affix it. 
 
+[@[The fighting stick, upside down](building-arcade-stick-pt-1/IMG_0692.JPG@400x400)](@(building-arcade-stick-pt-1/IMG_0692.JPG@1600x1600))
+
 The bottom should come right out.
+
+[@[Inside the fighting stick](building-arcade-stick-pt-1/IMG_0696.JPG@400x400)](@(building-arcade-stick-pt-1/IMG_0696.JPG@1600x1600))
 
 ### Removing the joystick
 
 Start by removing the ball top. On the bottom end of the joystick, there's a large slotted screw. Insert a flat-head screwdriver, and hold on to prevent the joystick spinning around as you unscrew the ball top.
 
+[@[Unscrewing the ball top](building-arcade-stick-pt-1/IMG_0709.JPG@400x400)](@(building-arcade-stick-pt-1/IMG_0709.JPG@1600x1600))
+
 The wiring to the joystick is connected to the circuit board via two-lead connectors. Disconnect those.
 
+[@[The connectors](building-arcade-stick-pt-1/IMG_0719.JPG@400x400)](@(building-arcade-stick-pt-1/IMG_0719.JPG@1600x1600))
+
 In each corner of the joystick assembly there's a long Philips screw. Unscrew the four screws, and the joystick assembly should pop right out.
+
+[@[The connectors](building-arcade-stick-pt-1/IMG_0701.JPG@400x400)](@(building-arcade-stick-pt-1/IMG_0701.JPG@1600x1600))
 
 ### Next up…
 
