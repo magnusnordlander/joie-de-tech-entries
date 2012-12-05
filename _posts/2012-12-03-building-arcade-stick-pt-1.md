@@ -93,4 +93,4 @@ This is as far as I have gotten. My action plan for the future is as follows:
  * Assemble everything
  * Kick some ass in [Ninja Baseball Bat Man](http://en.wikipedia.org/wiki/Ninja_Baseball_Bat_Man)
  
-So look forward to one or more posts detailing the rest of the modding. I'm also going to update this post with some images, as soon as I have taken them :)
+So look forward to one or more posts detailing the rest of the modding.
