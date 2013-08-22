@@ -19,7 +19,7 @@ Så vad är då kontentan? Jo, **om du behöver hjälp i ditt Symfony-projekt** 
 
 **Om du behöver hjälp med hela projektet**, då ska du också ta kontakt. Min erfarenhet av den tekniska sidan och Johans erfarenhet av användbarhet/interaktionsdesign gör att vi kan skapa lösningar med både användaren, affärsmålen och tekniken i fokus.
 
-Vår hemsida är inte uppe än, men kontakta oss på info@fervo.se så berättar vi mer!
+Vår hemsida är uppe och kan beskådas på [fervo.se](http://www.fervo.se). Du kan även kontakta oss på info@fervo.se så berättar vi mer!
 
 ### English summary
 
@@ -29,4 +29,4 @@ I have resigned from my position at E-butik, effective August 31th. September 1s
 
 **If you need help with an entire project**, you should also contact me! My experience with the technical side and Johan's experience with the usability/interaction design gives us the ability to create solutions with both the user, the business goals and the technology in focus.
 
-Our web site is not yet up, but contact us at info@fervo.se, and we'll tell you more!
+Our web site is up (in swedish at) [fervo.se](http://www.fervo.se). If you want information in English, or want to know more about our services, please contact us at info@fervo.se, and we'll be happy to tell you!
