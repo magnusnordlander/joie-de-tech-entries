@@ -25,17 +25,14 @@ FervoDeferredEventBundle allows you to defer execution of events, either by disp
 
 Events:
 
-```
-$evt = new DeferEvent('foo.action', new FooActionEvent());
-$eventDispatcher->dispatch('fervo.defer', $evt);
-```
+	$evt = new DeferEvent('foo.action', new FooActionEvent());
+	$eventDispatcher->dispatch('fervo.defer', $evt);
+
 Service:
 
-```
-$evt = new FooActionEvent();
-$evt->setName('foo.action');
-$container->get('fervo_dispatch.queue')->deferEvent($evt);
-```
+	$evt = new FooActionEvent();
+	$evt->setName('foo.action');
+	$container->get('fervo_dispatch.queue')->deferEvent($evt);
 
 As if by magic, at some later time, a worker will dispatch your event into the event dispatcher. Pretty much the only caveats you'll need to keep in mind is that it is in another process, and that the code isn't executing in the request scope anymore.
 
