@@ -18,7 +18,7 @@ Up until then it had seemed there were basically three options.
 
 That's when it hit me like a slippery fish. This performance problem is already solved, by PHP-FPM. You see, this is *exactly* the same problem that people had with CGI. Launching a new process for every request is slow, FPM was created to allow the PHP engine to keep running between requests, but to still clear PHP's internal state between requests, nipping any memory leaks or crashes in the bud.
 
-## FervoDeferredEventBundle
+### FervoDeferredEventBundle
 Having some [previous experience](https://github.com/fervo/FCGIKit) with FastCGI I took it upon myself to fix this problem once and for all, and the result is FervoDeferredEventBundle.
 
 FervoDeferredEventBundle allows you to defer execution of events, either by dispatching a wrapping event, or by calling a method on a service:
@@ -42,7 +42,7 @@ Using PHP-FPM brings two other advantages. First of all, you can set up a separa
 
 [FervoDeferredEventBundle](https://github.com/fervo/FervoDeferredEventBundle) is available at Github, along with [the worker](https://github.com/fervo/deferred-event-worker). While the bundle is pretty nice, there's probably some work to be done on the worker. I'm not a Ruby programmer, and I'm fairly sure it shows :)
 
-## Performance
+### Performance
 I decided to also create a performance test in order to see what kind of a speedup this might get. The listener for the deferred event is very simple, just doing a ```usleep(5)``` to simulate a database transaction or whatever.
 
 I wrote up a small command to dispatch 1000 deferred events, and did some simple measurements comparing using FastCGI to launching new processes. Since FervoDispatchBundle uses a command to dispatch the deferred event, the only PHP code difference is how that command is invoked (and even that is very similar). This means that pretty much the entire difference comes from using FastCGI vs. creating a new process. I took the measurements using Sidekiq's built in logging.
@@ -59,7 +59,7 @@ As you can see, the FastCGI implementation fluctuates a lot, but is on average 2
 
 For all you number crunchers out there, the raw data is available in a [Google Spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AtTQNwkuI5jvdEMtTm9KUGRDY1g4QTVlb2IwNWhyU1E&usp=sharing).
 
-## Conclusion
+### Conclusion
 I'm not claiming that my numbers are definite, I'm sure there's plenty to do implementation-wise, and that my setup isn't at all tuned for running workers, but it should serve well as an indicator that using FastCGI for running your workers is worth pursuing.
 
 Like I said, the code is available on Github, and will probably be going into production soon. Feel free to send pull requests!
